@@ -177,7 +177,7 @@ RCT_EXPORT_METHOD(printText:(NSString *) text withOptions:(NSDictionary *) optio
         if(!widthTimes) widthTimes = 0;
         NSInteger heigthTime = [[options valueForKey:@"heigthtimes"] integerValue];
         if(!heigthTime) heigthTime =0;
-        NSInteger fontType = [[options valueForKey:@"fontType"] integerValue];
+        NSInteger fontType = [[options valueForKey:@"fonttype"] integerValue];
         if(!fontType) fontType = 0;
             pendingResolve = resolve;
             pendingReject = reject;
